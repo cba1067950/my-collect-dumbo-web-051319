@@ -8,3 +8,11 @@ def my_collect(array)
   end
   array
 end
+
+nameArray = ["Tim Jones", "Tom Smith", "Jim Campagno"]
+
+my_collect(nameArray) do |name|
+  name.split(" ").first 
+end
+
+puts nameArray
