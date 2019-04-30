@@ -11,10 +11,4 @@ end
 
 nameArray = ["Tim Jones", "Tom Smith", "Jim Campagno"]
 
-
-collect(nameArray) do |name|
-  name.split(" ").first 
-end
-=begin
-puts nameArray
-=end
+nameArray.collect()
