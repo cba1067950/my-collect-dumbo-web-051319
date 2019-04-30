@@ -8,12 +8,3 @@ def my_collect(array)
   end
   newArray
 end
-
-nameArray = ["Tim Jones", "Tom Smith", "Jim Campagno"]
-
-#puts nameArray.collect {|name| name.split(" ").first}
-my_collect(nameArray) do |name|
-  name.split(" ").first
-end
-
-puts nameArray
