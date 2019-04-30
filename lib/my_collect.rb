@@ -6,7 +6,7 @@ def my_collect(array)
     newArray = array
     i = i + 1
   end
-  array
+  newArray
 end
 
 nameArray = ["Tim Jones", "Tom Smith", "Jim Campagno"]
