@@ -11,4 +11,4 @@ end
 
 nameArray = ["Tim Jones", "Tom Smith", "Jim Campagno"]
 
-nameArray.collect {|name| name.split(" ").first}
+puts nameArray.collect {|name| name.split(" ").first}
